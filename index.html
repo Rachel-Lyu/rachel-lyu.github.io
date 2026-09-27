@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ruiqi Lyu is a Ph.D. candidate in Carnegie Mellon University's School of Computer Science, working on machine learning for epidemiology and public health.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Ruiqi Lyu</title>
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: #fff;
+      color: #20252b;
+      font: 16px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: #1959a6; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { color: #103e78; }
+    a:focus-visible { outline: 2px solid #1959a6; outline-offset: 3px; border-radius: 2px; }
+    .page { width: min(100% - 40px, 760px); margin: 0 auto; }
+    header { padding: 66px 0 36px; border-bottom: 1px solid #e5e8eb; }
+    .eyebrow { margin: 0 0 8px; color: #59636e; font-size: .83rem; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; }
+    h1 { margin: 0; color: #151a20; font-size: clamp(2.5rem, 7vw, 3.7rem); line-height: 1.1; letter-spacing: -.045em; }
+    .role { margin: 12px 0 0; color: #4c5661; font-size: 1.1rem; }
+    nav { display: flex; flex-wrap: wrap; gap: 10px 23px; margin-top: 29px; font-size: .94rem; }
+    nav a { color: #313d4b; text-decoration: none; }
+    nav a:hover, nav a:focus-visible { color: #1959a6; text-decoration: underline; }
+    main { padding: 22px 0 65px; }
+    section { padding-top: 30px; }
+    h2 { margin: 0 0 13px; color: #151a20; font-size: 1.27rem; line-height: 1.3; letter-spacing: -.02em; }
+    h3 { margin: 25px 0 12px; color: #303943; font-size: 1rem; line-height: 1.4; }
+    p { margin: 0 0 14px; }
+    .muted { color: #59636e; }
+    .papers { list-style: none; margin: 0; padding: 0; }
+    .papers li { padding: 13px 0 15px; border-bottom: 1px solid #edf0f2; }
+    .papers li:first-child { padding-top: 0; }
+    .paper-title { display: block; font-weight: 600; line-height: 1.45; }
+    .paper-meta { display: block; margin-top: 3px; color: #59636e; font-size: .91rem; }
+    .note { margin-top: 13px; color: #59636e; font-size: .88rem; }
+    .events { list-style: none; margin: 0; padding: 0; }
+    .events li { display: grid; grid-template-columns: 105px minmax(0, 1fr); gap: 4px 16px; padding: 12px 0; border-bottom: 1px solid #edf0f2; }
+    .event-date { color: #59636e; font-size: .91rem; white-space: nowrap; }
+    .event-place { display: block; color: #59636e; font-size: .91rem; }
+    .awards { margin: 0; padding-left: 20px; }
+    .awards li { padding: 4px 0; }
+    .education { display: grid; gap: 14px; margin: 0; }
+    .education div { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 16px; }
+    .education dt { font-weight: 600; }
+    .education dd { margin: 0; color: #59636e; }
+    .education .date { grid-column: 2; grid-row: 1 / span 2; white-space: nowrap; color: #59636e; font-size: .91rem; }
+    .links { display: flex; flex-wrap: wrap; gap: 6px 20px; }
+    footer { padding: 21px 0 32px; border-top: 1px solid #e5e8eb; color: #69737d; font-size: .85rem; }
+    @media (max-width: 560px) {
+      header { padding-top: 45px; }
+      .education div { display: block; }
+      .education .date { display: block; }
+      .events li { display: block; }
+      .event-date { display: block; margin-bottom: 2px; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <p class="eyebrow">Healthcare and Life Sciences · Statistical Machine Learning</p>
+      <h1>Ruiqi Lyu</h1>
+      <p class="role">Ph.D. candidate · School of Computer Science, Carnegie Mellon University</p>
+      <nav aria-label="Page navigation">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#presentations">Presentations</a>
+        <a href="#honors">Honors</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about" aria-labelledby="about-heading">
+        <h2 id="about-heading">About</h2>
+        <p>I am a Ph.D. candidate in the School of Computer Science at Carnegie Mellon University, advised by Roni Rosenfeld and Bryan Wilder. I work on machine learning for epidemiology and public health.</p>
+        <p class="muted">My interests also include interpretable machine learning, distribution shift, statistical inference, causal discovery, and graph learning.</p>
+      </section>
+
+      <section id="publications" aria-labelledby="publications-heading">
+        <h2 id="publications-heading">Publications and manuscripts</h2>
+        <h3>Key-author publications</h3>
+        <ul class="papers">
+          <li>
+            <a class="paper-title" href="https://arxiv.org/abs/2511.07163">Combining digital data streams and epidemic networks for real time outbreak detection</a>
+            <span class="paper-meta">Ruiqi Lyu, Alistair Turcan, and Bryan Wilder · arXiv:2511.07163, 2025 · Under revision at PNAS</span>
+          </li>
+          <li>
+            <a class="paper-title" href="https://arxiv.org/abs/2509.23570">Improving Constraint-Based Discovery with Robust Propagation and Reliable LLM Priors</a>
+            <span class="paper-meta">Ruiqi Lyu†, Alistair Turcan†, Martin Jinye Zhang‡, and Bryan Wilder‡ · NeurIPS, 2026</span>
+          </li>
+          <li>
+            <a class="paper-title" href="https://arxiv.org/abs/2605.06530">SpatialEpiBench: Benchmarking Spatial Information and Epidemic Priors in Forecasting</a>
+            <span class="paper-meta">Ruiqi Lyu†, Alistair Turcan†, and Bryan Wilder · NeurIPS, 2026</span>
+          </li>
+          <li>
+            <a class="paper-title" href="https://arxiv.org/abs/2505.20634">Explaining Concept Shift with Interpretable Feature Attribution</a>
+            <span class="paper-meta">Ruiqi Lyu, Alistair Turcan, and Bryan Wilder · ICML, 2026</span>
+          </li>
+          <li>
+            <a class="paper-title" href="https://arxiv.org/abs/2608.02887">Population-Robust Feature Selection via Generalized Welfare Optimization</a>
+            <span class="paper-meta">Ruiqi Lyu, Alistair Turcan, and Bryan Wilder · arXiv:2608.02887, 2026</span>
+          </li>
+          <li>
+            <a class="paper-title" href="https://doi.org/10.1371/journal.pcbi.1012907">Federated epidemic surveillance</a>
+            <span class="paper-meta">Ruiqi Lyu, Roni Rosenfeld, and Bryan Wilder · PLOS Computational Biology 21(4): e1012907, 2025</span>
+          </li>
+          <li>
+            <a class="paper-title" href="https://doi.org/10.1101/2025.02.17.638709">Deep-learning-based interpolation of longitudinal microbiome data powers biologically informative discovery</a>
+            <span class="paper-meta">Yixiang Qu†, Ruiqi Lyu†, Duan Wang, Yifan Dai, Alistair Turcan, et al. · bioRxiv, 2025</span>
+          </li>
+          <li>
+            <a class="paper-title" href="https://doi.org/10.3390/genes15010051">Methodological Considerations in Longitudinal Analyses of Microbiome Data: A Comprehensive Review</a>
+            <span class="paper-meta">Ruiqi Lyu†, Yixiang Qu†, Kimon Divaris, and Di Wu · Genes 15(1): 51, 2024</span>
+          </li>
+          <li>
+            <a class="paper-title" href="https://doi.org/10.1093/bib/bbab276">GESLM algorithm for detecting causal SNPs in GWAS with multiple phenotypes</a>
+            <span class="paper-meta">Ruiqi Lyu, Jianle Sun, Dong Xu, Qianxue Jiang, Chaochun Wei, and Yue Zhang · Briefings in Bioinformatics 22(6): bbab276, 2021</span>
+          </li>
+        </ul>
+        <h3>Other publications</h3>
+        <ul class="papers">
+          <li>
+            <a class="paper-title" href="https://doi.org/10.18653/v1/2025.findings-emnlp.995">Predicting Language Models' Success at Zero-Shot Probabilistic Prediction</a>
+            <span class="paper-meta">Kevin Ren, Santiago Cortes-Gomez, Carlos Miguel Patiño, Ananya Joshi, Ruiqi Lyu, et al. · Findings of the Association for Computational Linguistics: EMNLP, pp. 18337–18363, 2025</span>
+          </li>
+          <li>
+            <a class="paper-title" href="https://doi.org/10.1186/s13059-024-03418-0">Scalable identification of lineage-specific gene regulatory networks from metacells with NetID</a>
+            <span class="paper-meta">Weixu Wang, Yichen Wang, Ruiqi Lyu, and Dominic Grün · Genome Biology 25: 275, 2024</span>
+          </li>
+          <li>
+            <a class="paper-title" href="https://doi.org/10.1093/bib/bbad279">Comprehensive evaluation of methods for differential expression analysis of metatranscriptomics data</a>
+            <span class="paper-meta">Hunyong Cho†, Yixiang Qu†, Chuwen Liu, Boyang Tang, Ruiqi Lyu, et al. · Briefings in Bioinformatics 24(5): bbad279, 2023</span>
+          </li>
+          <li>
+            <a class="paper-title" href="https://doi.org/10.1371/journal.pcbi.1009948">SMetABF: A rapid algorithm for Bayesian GWAS meta-analysis with a large number of studies included</a>
+            <span class="paper-meta">Jianle Sun, Ruiqi Lyu, Luojia Deng, Qianwen Li, Yang Zhao, and Yue Zhang · PLOS Computational Biology 18(3): e1009948, 2022</span>
+          </li>
+          <li>
+            <a class="paper-title" href="https://doi.org/10.1016/j.mgene.2021.100949">Meta-analysis on the association between rs11868035, rs823144, rs3851179 and Parkinson's disease</a>
+            <span class="paper-meta">Jianle Sun, Luojia Deng, Hengchao Zhu, Mingwei Liu, Ruiqi Lyu, Qingxuan Lai, and Yue Zhang · Meta Gene 30: 100949, 2021</span>
+          </li>
+        </ul>
+        <p class="note">† Equal contribution. ‡ Equal contribution among senior authors.</p>
+        <p><a href="https://scholar.google.com/citations?user=9m26H2oAAAAJ&amp;hl=en">Google Scholar profile →</a></p>
+      </section>
+
+      <section id="presentations" aria-labelledby="presentations-heading">
+        <h2 id="presentations-heading">Presentations</h2>
+        <ul class="events">
+          <li><span class="event-date">May 2025</span><div>Combining digital data streams and epidemic networks for real time outbreak detection<span class="event-place">Insight Net · Poster</span></div></li>
+          <li><span class="event-date">Nov. 2024</span><div>Federated Epidemic Surveillance<span class="event-place">California Department of Public Health</span></div></li>
+          <li><span class="event-date">Jun. 2024</span><div>Federated Epidemic Surveillance<span class="event-place">CDC Center for Forecasting and Outbreak Analytics</span></div></li>
+          <li><span class="event-date">Mar. 2024</span><div>Novel Deep Learning Interpolation Method for Irregularly-Sampled Longitudinal Microbiome Data<span class="event-place">IADR/AADOCR/CADR General Session and Exhibition · Poster</span></div></li>
+          <li><span class="event-date">Jul. 2023</span><div>Federated Epidemic Surveillance<span class="event-place">CDC Influenza Division</span></div></li>
+        </ul>
+      </section>
+
+      <section id="honors" aria-labelledby="honors-heading">
+        <h2 id="honors-heading">Honors and leadership</h2>
+        <ul class="awards">
+          <li>China National Scholarship (top 1%), 2020 and 2021.</li>
+          <li>Student Leader, SJTU-Software Team, International Genetically Engineered Machine Competition (iGEM), 2020; team received a Gold Medal.</li>
+        </ul>
+      </section>
+
+      <section id="education" aria-labelledby="education-heading">
+        <h2 id="education-heading">Education</h2>
+        <dl class="education">
+          <div>
+            <dt>Carnegie Mellon University</dt>
+            <dd>Ph.D. candidate, School of Computer Science</dd>
+            <dd class="date">2022–present</dd>
+          </div>
+          <div>
+            <dt>Shanghai Jiao Tong University</dt>
+            <dd>B.S., Bioinformatics and Biostatistics; Minor, Entrepreneurship</dd>
+            <dd class="date">2018–2022</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <div class="links">
+          <a href="mailto:ruiqil@cs.cmu.edu">Email</a>
+          <a href="https://github.com/Rachel-Lyu">GitHub</a>
+          <a href="https://scholar.google.com/citations?user=9m26H2oAAAAJ&amp;hl=en">Google Scholar</a>
+          <a href="https://orcid.org/0000-0001-7062-1476">ORCID</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>© Ruiqi Lyu</footer>
+  </div>
+</body>
+</html>
