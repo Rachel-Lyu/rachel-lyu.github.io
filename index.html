@@ -22,6 +22,9 @@
     a:focus-visible { outline: 2px solid #1959a6; outline-offset: 3px; border-radius: 2px; }
     .page { width: min(100% - 40px, 760px); margin: 0 auto; }
     header { padding: 66px 0 36px; border-bottom: 1px solid #e5e8eb; }
+    .intro { display: flex; align-items: center; justify-content: space-between; gap: 28px; }
+    .intro-text { min-width: 0; }
+    .portrait { display: block; width: 172px; height: 172px; flex: none; object-fit: cover; border-radius: 12px; }
     .eyebrow { margin: 0 0 8px; color: #59636e; font-size: .83rem; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; }
     h1 { margin: 0; color: #151a20; font-size: clamp(2.5rem, 7vw, 3.7rem); line-height: 1.1; letter-spacing: -.045em; }
     .role { margin: 12px 0 0; color: #4c5661; font-size: 1.1rem; }
@@ -55,6 +58,8 @@
     footer { padding: 21px 0 32px; border-top: 1px solid #e5e8eb; color: #69737d; font-size: .85rem; }
     @media (max-width: 560px) {
       header { padding-top: 45px; }
+      .intro { flex-direction: column-reverse; align-items: flex-start; gap: 20px; }
+      .portrait { width: 132px; height: 132px; }
       .education div { display: block; }
       .education .date { display: block; }
       .events li { display: block; }
@@ -66,9 +71,14 @@
 <body>
   <div class="page">
     <header>
-      <p class="eyebrow">Healthcare and Life Sciences · Statistical Machine Learning</p>
-      <h1>Ruiqi Lyu</h1>
-      <p class="role">Ph.D. candidate · School of Computer Science, Carnegie Mellon University</p>
+      <div class="intro">
+        <div class="intro-text">
+          <p class="eyebrow">Statistical Machine Learning · Healthcare and Life Sciences</p>
+          <h1>Ruiqi Lyu</h1>
+          <p class="role">Ph.D. candidate · School of Computer Science, Carnegie Mellon University</p>
+        </div>
+        <img class="portrait" src="portrait.png" alt="Ruiqi Lyu smiling by the waterfront" width="172" height="172" decoding="async">
+      </div>
       <nav aria-label="Page navigation">
         <a href="#about">About</a>
         <a href="#publications">Publications</a>
